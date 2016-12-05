@@ -12,7 +12,7 @@ module.exports = {
     "declaration-empty-line-before": null,
     "font-family-name-quotes": `always-where-recommended`,
     "color-named": `always-where-possible`,
-    "function-url-quotes": `always`,
+    "function-url-quotes": `never`,
     "string-quotes": `single`,
     "declaration-no-important": true,
     "no-duplicate-selectors": true,
