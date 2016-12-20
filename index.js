@@ -12,6 +12,8 @@ module.exports = {
     "declaration-empty-line-before": null,
     "font-family-name-quotes": `always-where-recommended`,
     "color-named": `always-where-possible`,
+    "comment-empty-line-before": null,
+    "comment-whitespace-inside": null,
     "function-url-quotes": `never`,
     "string-quotes": `single`,
     "declaration-no-important": true,
