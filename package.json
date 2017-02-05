@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-devine",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "the one and only devine.be stylelint config",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
     "release-it": "^2.5.1"
   },
   "dependencies": {
-    "stylelint-config-standard": "^13.0.2"
+    "stylelint-config-standard": "^16.0.0"
   }
 }

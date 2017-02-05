@@ -8,7 +8,7 @@ module.exports = {
 
     "selector-list-comma-newline-after": null,
     "block-closing-brace-empty-line-before": null,
-    "rule-nested-empty-line-before": `always`,
+    "rule-empty-line-before": `always`,
     "declaration-empty-line-before": null,
     "font-family-name-quotes": `always-where-recommended`,
     "color-named": `always-where-possible`,
@@ -25,7 +25,8 @@ module.exports = {
     "selector-no-universal": true,
     "selector-no-vendor-prefix": true,
     "property-no-vendor-prefix": true,
-    "root-no-standard-properties": true,
+    // deprecated 7.8.0
+    // "root-no-standard-properties": true,
     "media-feature-name-case": `lower`,
     "number-no-trailing-zeros": true,
     "number-leading-zero": `never`,
