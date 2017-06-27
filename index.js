@@ -18,11 +18,13 @@ module.exports = {
     "string-quotes": `single`,
     "declaration-no-important": true,
     "no-duplicate-selectors": true,
-    "selector-no-id": true,
+    // deprecated 8.0 [selector-no-id]
+    "selector-max-id": 0,
     "number-max-precision": 2,
     "shorthand-property-no-redundant-values": true,
     "selector-no-qualifying-type": [true, {ignore: `attribute`}],
-    "selector-no-universal": true,
+    // deprecated 8.0 [selector-no-universal]
+    "selector-max-universal": 0,
     "selector-no-vendor-prefix": true,
     "property-no-vendor-prefix": true,
     // deprecated 7.8.0
