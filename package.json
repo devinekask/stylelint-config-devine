@@ -13,10 +13,10 @@
   "author": "Geoffrey Dhuyvetters <geoffrey.dhuyvetters@howest.be>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^3.8.0",
-    "release-it": "^2.5.1"
+    "eslint": "^4.11.0",
+    "release-it": "^3.2.0"
   },
   "dependencies": {
-    "stylelint-config-standard": "^16.0.0"
+    "stylelint-config-standard": "^17.0.0"
   }
 }
