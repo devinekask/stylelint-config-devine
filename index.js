@@ -1,11 +1,7 @@
 module.exports = {
-
-  extends: [
-    `stylelint-config-standard`
-  ],
+  extends: [`stylelint-config-standard`],
 
   rules: {
-
     "selector-list-comma-newline-after": null,
     "block-closing-brace-empty-line-before": null,
     "rule-empty-line-before": `always`,
@@ -22,7 +18,7 @@ module.exports = {
     "selector-max-id": 0,
     "number-max-precision": 2,
     "shorthand-property-no-redundant-values": true,
-    "selector-no-qualifying-type": [true, {ignore: `attribute`}],
+    "selector-no-qualifying-type": [true, { ignore: `attribute` }],
     // deprecated 8.0 [selector-no-universal]
     "selector-max-universal": 0,
     "selector-no-vendor-prefix": true,
@@ -34,8 +30,6 @@ module.exports = {
     "number-leading-zero": `never`,
     "value-keyword-case": `lower`,
     "no-extra-semicolons": true,
-    "declaration-block-no-shorthand-property-overrides": true,
-    "declaration-block-no-redundant-longhand-properties": [true, {ignoreShorthands: ["grid-template"]}],
+    "declaration-block-no-shorthand-property-overrides": true
   }
-
 };

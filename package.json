@@ -10,13 +10,15 @@
     "url": "https://github.com/devinehowest/stylelint-config-devine.git",
     "type": "git"
   },
-  "author": "Geoffrey Dhuyvetters <geoffrey.dhuyvetters@howest.be>",
+  "author": "Devine",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.11.0",
-    "release-it": "^3.2.0"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "release-it": "^7.6.2"
   },
   "dependencies": {
-    "stylelint-config-standard": "^17.0.0"
+    "stylelint": "^9.7.1",
+    "stylelint-config-standard": "^18.2.0"
   }
 }
